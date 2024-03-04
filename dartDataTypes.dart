@@ -19,5 +19,17 @@ void main() {
   int bananas = 5;
   int totalFruits = apples + bananas;
   print("Total fruits: $totalFruits");
+  String emojiString = String.fromCharCodes([
+    0x1F600, // 😀
+    0x1F603, // 😃
+    0x1F604, // 😄
+    0x1F601, // 😁
+    0x1F606, // 😆
+    0x1F605, // 😅
+    0x1F602, // 😂
+    0x1F642, // 😊
+    0x1F60B, // 😋
+  ]);
+  print("Emojis: $emojiString");
 }
 
